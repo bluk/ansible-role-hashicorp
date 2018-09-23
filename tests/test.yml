@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  roles:
+    - role: ansible-role-hashicorp
+      vars:
+        hashicorp_program: vault
+        hashicorp_version: 0.11.1
+        hashicorp_platform: darwin_amd64
+        hashicorp_install_path: /usr/local/bin

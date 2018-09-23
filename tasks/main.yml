@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-hashicorp
+- name: Install hashicorp
+  script: files/update-hashicorp.sh {{ hashicorp_program }} {{ hashicorp_version }} {{ hashicorp_platform }} {{ hashicorp_install_path }}

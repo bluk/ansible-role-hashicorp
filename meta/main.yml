@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Bryant Luk
+  role_name: hashicorp
+  description: Installs HashiCorp tools
+  license: Apache
+  min_ansible_version: 2.6
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - hashicorp
+    - system
+    - packaging
+dependencies: []

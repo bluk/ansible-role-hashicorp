@@ -1,5 +1,5 @@
 ansible-role-hashicorp
-=========
+======================
 
 [![Apache-2.0 License](https://img.shields.io/github/license/bluk/ansible-role-hashicorp.svg)][license] [![Build Status](https://travis-ci.org/bluk/ansible-role-hashicorp.svg?branch=master)][travis-ci]
 
@@ -7,6 +7,8 @@ An [Ansible](https://www.ansible.com) role to install [HashiCorp](https://hashic
 
 Requirements
 ------------
+
+It is assumed that `curl`, `gpg`, `shasum`, and `unzip` are installed.
 
 Role Variables
 --------------
@@ -18,6 +20,8 @@ Role Variables
 * `hashicorp_platform` - The platform of the tool to install (e.g. `linux_amd64` or `darwin_amd64`).
 
 * `hashicorp_install_path` - The path to install the tools.
+
+* `hashicorp_check_gpg_signature` - If the GPG signature of the SHA sum file should be checked (e.g. `"true"`).
 
 Dependencies
 ------------

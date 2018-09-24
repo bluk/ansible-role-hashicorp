@@ -1,3 +1,4 @@
 ---
 # defaults file for ansible-role-hashicorp
 hashicorp_install_path: /usr/local/bin
+hashicorp_check_gpg_signature: "true"
